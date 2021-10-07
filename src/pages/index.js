@@ -14,7 +14,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Lopez" />
+    <Seo title="Welcome!" />
     <p className="message">My name is Lionel Lopez. A software developer whose is striving for a carrer in the game industry.</p>
     <p className="message">Below is a list of applications I have worked on and wish to share with you.</p>
     <Container>
