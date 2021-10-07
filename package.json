@@ -1,10 +1,11 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My portfolio website setup using Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Lionel Lopez <lionelslopez14@gmail.com>",
   "dependencies": {
+    "bootstrap": "^5.1.2",
     "gatsby": "^3.13.0",
     "gatsby-cli": "^3.13.0",
     "gatsby-plugin-image": "^1.13.0",
@@ -16,6 +17,7 @@
     "gatsby-transformer-sharp": "^3.13.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-bootstrap": "^2.0.0-rc.0",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0"
   },
