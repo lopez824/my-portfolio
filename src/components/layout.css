@@ -55,9 +55,11 @@ footer {
   color: #dddddd;
 }
 
-.card-img-top {
+.card-img {
   border-top-left-radius: calc(0.5rem - 1px);
   border-top-right-radius: calc(0.5rem - 1px);
+  border-bottom-left-radius: calc(0.5rem - 1px);
+  border-bottom-right-radius: calc(0.5rem - 1px);
 }
 
 article,

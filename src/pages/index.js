@@ -4,7 +4,14 @@ import Col from "react-bootstrap/Col"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Image from "react-bootstrap/Image"
-import picture from "../images/gatsby-icon.png"
+import aha from "../images/AHA.png"
+import aou from "../images/aou.png"
+import demo from "../images/DemoReel.png"
+import dol from "../images/DoL.png"
+import hnh from "../images/HeistnHeat.png"
+import jt from "../images/JacquesTale.png"
+import jc from "../images/JamesCastle.png"
+import vg from "../images/vgMusic.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Link } from "gatsby"   // used for linking to additional pages
 //import { StaticImage } from "gatsby-plugin-image"
@@ -21,7 +28,7 @@ const IndexPage = () => (
       <Row>
         <Col md={6}>
           <Card>
-            <Image src={picture} alt="All of Us" fluid />
+            <Image src={aou} className="card-img" alt="All of Us" fluid />
             <Card.Body>
               <Card.Title><h2>All of Us</h2></Card.Title>
               <Card.Text>
@@ -32,11 +39,11 @@ const IndexPage = () => (
         </Col>
         <Col md={6}>
           <Card>
-            <Image src={picture} alt="Kids Heart Challenge" fluid />
+            <Image src={aha} className="card-img" alt="Kids Heart Challenge" fluid />
             <Card.Body>
               <Card.Title><h2>Kids Heart Challenge</h2></Card.Title>
               <Card.Text>
-                Mobile app.
+                Mobile app. <a href="https://play.google.com/store/apps/details?id=com.aha_jump.android.communicator" rel="noopener">Link</a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -45,22 +52,22 @@ const IndexPage = () => (
       <Row>
       <Col md={6}>
           <Card>
-            <Image src={picture} alt="James Castle House" fluid />
+            <Image src={jc} className="card-img" alt="James Castle" fluid />
             <Card.Body>
-              <Card.Title><h2>James Castle House</h2></Card.Title>
+              <Card.Title><h2>James Castle</h2></Card.Title>
               <Card.Text>
-                VR project.
+                VR project. <a href="https://apps.apple.com/us/app/james-castle-ar/id1501398790" rel="noopener">AR App</a> <a href="https://youtu.be/huajQCQFS5k" rel="noopener">Watch here</a>
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col md={6}>
           <Card>
-            <Image src={picture} alt="Jacques Tale" fluid />
+            <Image src={jt} className="card-img" alt="Jacques Tale" fluid />
             <Card.Body>
               <Card.Title><h2>Jacques' Tale</h2></Card.Title>
               <Card.Text>
-                Mobile app.
+                Mobile app. <a href="https://play.google.com/store/apps/details?id=com.gimm.NeuralNetwork" rel="noopener">Link</a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -69,22 +76,22 @@ const IndexPage = () => (
       <Row>
       <Col md={6}>
           <Card>
-            <Image src={picture} alt="Heist N Heat" fluid />
+            <Image src={hnh} className="card-img" alt="Heist N Heat" fluid />
             <Card.Body>
               <Card.Title><h2>Heist N' Heat</h2></Card.Title>
               <Card.Text>
-                Javascript game.
+                Javascript game. <a href="https://heistnheat.netlify.app/" rel="noopener">Link</a>
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col md={6}>
           <Card>
-            <Image src={picture} alt="vgMusic" fluid />
+            <Image src={vg} className="card-img" alt="vgMusic" fluid />
             <Card.Body>
               <Card.Title><h2>vgMusic</h2></Card.Title>
               <Card.Text>
-                Web app.
+                My first <a href="https://vgmusic.herokuapp.com/" rel="noopener">website</a>.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -93,7 +100,7 @@ const IndexPage = () => (
       <Row>
         <Col md={6}>
           <Card>
-            <Image src={picture} alt="Disciple of the Land" fluid />
+            <Image src={dol} className="card-img" alt="Disciple of the Land" fluid />
             <Card.Body>
               <Card.Title><h2>Disciple of the Land</h2></Card.Title>
               <Card.Text>
@@ -104,15 +111,28 @@ const IndexPage = () => (
         </Col>
         <Col md={6}>
           <Card>
-            <Image src={picture} alt="Fun Times during Undergrad" fluid />
+            <Image src={demo} className="card-img" alt="Gatling Gun Experience" fluid />
             <Card.Body>
-              <Card.Title><h2>Undergraduate Demo Reel</h2></Card.Title>
+              <Card.Title><h2>Gatling Gun Experience</h2></Card.Title>
               <Card.Text>
-                Fun times creating things at Boise State University.
+                Educational VR app. <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener">Watch here</a>.
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
+      </Row>
+      <Row>
+      <Col md={6}>
+      <Card>
+            <Image src={demo} className="card-img" alt="Fun Times during Undergrad" fluid />
+            <Card.Body>
+              <Card.Title><h2>Undergraduate Demo Reel</h2></Card.Title>
+              <Card.Text>
+                Fun times creating things at Boise State University. <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener">Watch here</a>.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+      </Col>
       </Row>
     </Container>
   </Layout>
