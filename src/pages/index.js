@@ -57,7 +57,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>James Castle</h2></Card.Title>
               <Card.Text>
-                A VR simulation of James Castle's studio. <a href="https://apps.apple.com/us/app/james-castle-ar/id1501398790" rel="noopener">AR App</a> <a href="https://youtu.be/huajQCQFS5k" rel="noopener">Watch here</a>
+                A VR simulation of Idaho's very own James Castle's studio. <a href="https://youtu.be/huajQCQFS5k" rel="noopener">Watch here</a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -92,7 +92,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>vgMusic</h2></Card.Title>
               <Card.Text>
-                My first website that functions as a music suggestor. <a href="https://vgmusic.herokuapp.com/" rel="noopener">Link</a>.
+                My first website that functions as a music suggestor. <a href="https://vgmusic.herokuapp.com/" rel="noopener">Link</a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -116,7 +116,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Gatling Gun Experience</h2></Card.Title>
               <Card.Text>
-                An educational VR app for the Old Idaho Penitentiary. <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener">Watch here</a>.
+                An educational VR app for the Old Idaho Penitentiary. <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener">Watch here</a>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -129,7 +129,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Undergraduate Demo Reel</h2></Card.Title>
               <Card.Text>
-                A video showing fun times creating things at Boise State University. <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener">Watch here</a>.
+                A video showing fun times creating things at Boise State University. <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener">Watch here</a>
               </Card.Text>
             </Card.Body>
           </Card>
