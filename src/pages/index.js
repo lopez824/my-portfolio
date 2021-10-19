@@ -23,7 +23,8 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Welcome!" />
-    <p className="message">My name is Lionel Lopez. A software developer establishing a carrer in the game industry.</p>
+    <h2 className="message">Software Developer</h2>
+    <p className="message">My current goal is to work in the game industry as a gameplay or UI programmer.</p>
     <p className="message">Below is a list of applications I have worked on and wish to share with you.</p>
     <Container>
       <Row>
@@ -33,7 +34,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>All of Us</h2></Card.Title>
               <Card.Text>
-                An educational VR game about precision medicine and the All of Us Research Program.
+                A VR game about precision medicine and the All of Us Research Program.
+              </Card.Text>
+              <Card.Text>
+              Programmed accesibility features, npc catching system, tablet system, and UI.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -44,7 +48,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Kids Heart Challenge</h2></Card.Title>
               <Card.Text>
-                A mobile app for fundraising with the KHC program. <a href="https://play.google.com/store/apps/details?id=com.aha_jump.android.communicator" rel="noopener">Link</a>
+                A <a href="https://play.google.com/store/apps/details?id=com.aha_jump.android.communicator" rel="noopener">mobile app</a> for fundraising with the KHC program.
+              </Card.Text>
+              <Card.Text>
+              Core responsiblites included implementing new features, fixing bugs, and updating UI.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -57,7 +64,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>James Castle</h2></Card.Title>
               <Card.Text>
-                A VR simulation of Idaho's very own James Castle's studio. <a href="https://youtu.be/huajQCQFS5k" rel="noopener">Watch here</a>
+                A <a href="https://youtu.be/huajQCQFS5k" rel="noopener">VR simulation</a> of Idaho's very own James Castle's studio.
+              </Card.Text>
+              <Card.Text>
+              Built application for the Oculus Quest, created 3D models, and programmed VR interactions.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -68,7 +78,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Jacques' Tale</h2></Card.Title>
               <Card.Text>
-                A mobile game for children inspired by neurons. <a href="https://play.google.com/store/apps/details?id=com.gimm.NeuralNetwork" rel="noopener">Link</a>
+                A <a href="https://play.google.com/store/apps/details?id=com.gimm.NeuralNetwork" rel="noopener">mobile game</a> for children inspired by neurons.
+              </Card.Text>
+              <Card.Text>
+              Programmed level system and touch interactions. Created, designed, and programmed UI.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -81,8 +94,9 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Heist N' Heat</h2></Card.Title>
               <Card.Text>
-                A web iteration of the arcade game Rally-X. <a href="https://heistnheat.netlify.app/" rel="noopener">Link</a>
+                A <a href="https://heistnheat.netlify.app/" rel="noopener">web game</a> iteration of the arcade classic, Rally-X.
               </Card.Text>
+              <Card.Text>Programmed most of the game. Also hosted the game on Netlify using a Webpack configured for Phaser 3.</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -92,8 +106,9 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>vgMusic</h2></Card.Title>
               <Card.Text>
-                My first website that functions as a music suggestor. <a href="https://vgmusic.herokuapp.com/" rel="noopener">Link</a>
+                My <a href="https://vgmusic.herokuapp.com/" rel="noopener">first website</a> that functions as a music suggestor.
               </Card.Text>
+              <Card.Text>Built it myself! One cool feature is using AJAX to access a database and embed Spotify Widgets.</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -107,6 +122,7 @@ const IndexPage = () => (
               <Card.Text>
                 A utility app for Final Fantasy XIV.
               </Card.Text>
+              <Card.Text>Built it myself! Creates a local database of items from a json file using AWS. I had fun making the UI.</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -116,7 +132,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Gatling Gun Experience</h2></Card.Title>
               <Card.Text>
-                An educational VR app for the Old Idaho Penitentiary. <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener">Watch here</a>
+                An <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener">educational VR app</a> for the Old Idaho Penitentiary.
+              </Card.Text>
+              <Card.Text>
+              Programmed the audio playback system and UI. Excluding textures, designed the UI.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -129,7 +148,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Undergraduate Demo Reel</h2></Card.Title>
               <Card.Text>
-                A video showing fun times creating things at Boise State University. <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener">Watch here</a>
+                A <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener">video</a> showing fun times creating things at Boise State University.
               </Card.Text>
             </Card.Body>
           </Card>

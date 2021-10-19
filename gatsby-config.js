@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `My Portfolio`,
+    title: `Lionel Lopez`,
     description: `A single page application that showcases my portfolio`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `Lionel Lopez`,
+    siteUrl: `https://lionellopez.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -62,6 +62,10 @@ footer {
   border-bottom-right-radius: calc(0.5rem - 1px);
 }
 
+#contact {
+  color: #e0e0e0;
+}
+
 article,
 aside,
 details,

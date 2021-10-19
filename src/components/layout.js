@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`}  />
       <div
         style={{
           margin: `0 auto`,
@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
+          <p id="contact">Contact: <a href="mailto:lionelslopez14@gmail.com">lionelslopez14@gmail.com</a></p>
           © {new Date().getFullYear()}, Built by Lionel Lopez with Gatsby
         </footer>
       </div>
