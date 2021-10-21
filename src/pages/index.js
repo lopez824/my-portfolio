@@ -24,8 +24,9 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Welcome!" />
     <h2 className="message">Software Developer</h2>
-    <p className="message">My current goal is to work in the game industry as a gameplay or UI programmer.</p>
-    <p className="message">Below is a list of applications I have worked on and wish to share with you.</p>
+    <p className="message">I am a graduate student at the University of Utah pursuing a Masters Degree in Entertainment Arts and Engineering.</p>
+    <p className="message">My goal is to work in the game industry as a gameplay or UI programmer. Below is a list of applications I have worked on and wish to share with you.</p>
+    <p className="message"></p>
     <Container>
       <Row>
         <Col md={6}>
