@@ -7,7 +7,7 @@
 
 1.  **Clone repository**
 
-1. **Instal Gatsby CLI**
+1. **Install Gatsby CLI**
      
      Navigate to project directory and install the CLI. Alternativy, check to see if it is already installed.
      ```shell
