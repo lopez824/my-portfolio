@@ -24,7 +24,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Welcome!" />
     <h2 className="message">Game Developer</h2>
-    <p className="message">I am a graduate student at the University of Utah pursuing a Masters Degree in Entertainment Arts and Engineering. My specialization is an Engineer with a focus of game design</p>
+    <p className="message">I am a graduate student at the University of Utah pursuing a Masters Degree in Entertainment Arts and Engineering. My specialization is an Engineer with a focus of game design.</p>
     <p className="message">I enjoy doing work as a gameplay, AI, UI, or VR programmer. Below is a list of applications I have worked on and wish to share with you.</p>
     <p className="message"></p>
     <Container>
