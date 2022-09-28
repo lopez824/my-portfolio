@@ -23,9 +23,9 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Welcome!" />
-    <h2 className="message">Software Developer</h2>
-    <p className="message">I am a graduate student at the University of Utah pursuing a Masters Degree in Entertainment Arts and Engineering.</p>
-    <p className="message">My goal is to work in the game industry as a gameplay, UI, or VR programmer. Below is a list of applications I have worked on and wish to share with you.</p>
+    <h2 className="message">Game Developer</h2>
+    <p className="message">I am a graduate student at the University of Utah pursuing a Masters Degree in Entertainment Arts and Engineering. My specialization is an Engineer with a focus of game design</p>
+    <p className="message">I enjoy doing work as a gameplay, AI, UI, or VR programmer. Below is a list of applications I have worked on and wish to share with you.</p>
     <p className="message"></p>
     <Container>
       <Row>
@@ -133,7 +133,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Gatling Gun Experience</h2></Card.Title>
               <Card.Text>
-                An <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener">educational VR app</a> for the Old Idaho Penitentiary.
+                An <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener">educational VR game</a> for the Old Idaho Penitentiary.
               </Card.Text>
               <Card.Text>
               Programmed the audio playback system and UI. Excluding textures, designed the UI.
@@ -149,7 +149,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Undergraduate Demo Reel</h2></Card.Title>
               <Card.Text>
-                A <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener">video</a> showing fun times creating things at Boise State University.
+                A <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener">video</a> showing fun times creating things during my four years at Boise State University.
               </Card.Text>
             </Card.Body>
           </Card>
