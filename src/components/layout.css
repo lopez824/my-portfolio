@@ -46,6 +46,7 @@ footer {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: .5rem;
+  transition: all 0.5s ease-out;
 }
 .card-title {
   color: #03dac5;
@@ -60,6 +61,15 @@ footer {
   border-top-right-radius: calc(0.5rem - 1px);
   border-bottom-left-radius: calc(0.5rem - 1px);
   border-bottom-right-radius: calc(0.5rem - 1px);
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.025) translateZ(0);
+  background-color: #373737;
+}
+
+#card-link {
+  text-decoration: none;
 }
 
 #contact {
