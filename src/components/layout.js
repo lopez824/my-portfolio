@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
           }}
         >
           <p id="contact">Contact: <a href="mailto:lionelslopez14@gmail.com">lionelslopez14@gmail.com</a></p>
-          © {new Date().getFullYear()}, Built by Lionel Lopez with Gatsby
+          © {new Date().getFullYear()}, Programmed by Lionel Lopez with Gatsby
         </footer>
       </div>
     </>
