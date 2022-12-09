@@ -25,7 +25,7 @@ const IndexPage = () => (
     <Seo title="Welcome!" />
     <h2 className="message">Game Developer</h2>
     <p className="message">I am a graduate student at the University of Utah pursuing a Masters Degree in Entertainment Arts and Engineering. My specialization is an Engineer with a focus of game design.</p>
-    <p className="message">I enjoy doing work as a gameplay, AI, UI, or VR programmer. Below is a list of applications I have worked on and wish to share with you.</p>
+    <p className="message">I enjoy doing work as a gameplay, AI, UI, or VR programmer. Below is a list of games and applications I have worked on.</p>
     <p className="message"></p>
     <Container>
       <Row>
@@ -38,7 +38,10 @@ const IndexPage = () => (
                 A VR game about precision medicine and the All of Us Research Program.
               </Card.Text>
               <Card.Text>
-              Programmed accesibility features, npc catching system, tablet system, and UI.
+                Programmed accesibility features, npc catching system, tablet system, and UI.
+              </Card.Text>
+              <Card.Text>
+                Made in Unity.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -53,7 +56,10 @@ const IndexPage = () => (
                 A mobile app for fundraising with the KHC program.
               </Card.Text>
               <Card.Text>
-              Core responsiblites included implementing new features, fixing bugs, and updating UI.
+                Core responsiblites included implementing new features, fixing bugs, and updating UI.
+              </Card.Text>
+              <Card.Text>
+                Made with the Cordova mobile framework.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -71,7 +77,10 @@ const IndexPage = () => (
                 A VR simulation of Idaho's very own James Castle's studio.
               </Card.Text>
               <Card.Text>
-              Built application for the Oculus Quest, created 3D models, and programmed VR interactions.
+                Built application for the Oculus Quest, created 3D models, and programmed VR interactions.
+              </Card.Text>
+              <Card.Text>
+                Made in Unity.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -87,7 +96,10 @@ const IndexPage = () => (
                 A mobile game for children inspired by neurons.
               </Card.Text>
               <Card.Text>
-              Programmed level system and touch interactions. Created, designed, and programmed UI.
+                Programmed level system and touch interactions. Created, designed, and programmed UI.
+              </Card.Text>
+              <Card.Text>
+                Made in Unity.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -119,6 +131,9 @@ const IndexPage = () => (
                 My first website that functions as a music suggestor.
               </Card.Text>
               <Card.Text>Built it myself! One cool feature is using AJAX to access a database and embed Spotify Widgets.</Card.Text>
+              <Card.Text>
+                Made without a framework.
+              </Card.Text>
             </Card.Body>
           </Card>
           </a>
@@ -134,6 +149,9 @@ const IndexPage = () => (
                 A utility app for Final Fantasy XIV.
               </Card.Text>
               <Card.Text>Built it myself! Creates a local database of items from a json file using AWS. I had fun making the UI.</Card.Text>
+              <Card.Text>
+                Native android application.
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -147,7 +165,10 @@ const IndexPage = () => (
                 An educational VR game for the Old Idaho Penitentiary.
               </Card.Text>
               <Card.Text>
-              Programmed the audio playback system and UI. Excluding textures, designed the UI.
+                Programmed the audio playback system and UI. Excluding textures, designed the UI.
+              </Card.Text>
+              <Card.Text>
+                Made in Unity.
               </Card.Text>
             </Card.Body>
           </Card>
