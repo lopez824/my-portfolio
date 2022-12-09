@@ -35,13 +35,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>All of Us</h2></Card.Title>
               <Card.Text>
-                A VR game about precision medicine and the All of Us Research Program.
+                A VR game about precision medicine and the All of Us Research Program. Made in Unity.
               </Card.Text>
               <Card.Text>
                 Programmed accesibility features, npc catching system, tablet system, and UI.
-              </Card.Text>
-              <Card.Text>
-                Made in Unity.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -53,13 +50,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Kids Heart Challenge</h2></Card.Title>
               <Card.Text>
-                A mobile app for fundraising with the KHC program.
+                A mobile app for fundraising with the KHC program. Made with Cordova mobile framework.
               </Card.Text>
               <Card.Text>
                 Core responsiblites included implementing new features, fixing bugs, and updating UI.
-              </Card.Text>
-              <Card.Text>
-                Made with the Cordova mobile framework.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -74,13 +68,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>James Castle</h2></Card.Title>
               <Card.Text>
-                A VR simulation of Idaho's very own James Castle's studio.
+                A VR simulation of Idaho's very own James Castle's studio. Made in Unity.
               </Card.Text>
               <Card.Text>
                 Built application for the Oculus Quest, created 3D models, and programmed VR interactions.
-              </Card.Text>
-              <Card.Text>
-                Made in Unity.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -93,13 +84,10 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Jacques' Tale</h2></Card.Title>
               <Card.Text>
-                A mobile game for children inspired by neurons.
+                A mobile game for children inspired by neurons. Made in Unity.
               </Card.Text>
               <Card.Text>
                 Programmed level system and touch interactions. Created, designed, and programmed UI.
-              </Card.Text>
-              <Card.Text>
-                Made in Unity.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -122,39 +110,19 @@ const IndexPage = () => (
           </a>
         </Col>
         <Col md={6}>
-        <a href="https://vgmusic.herokuapp.com/" rel="noopener noreferrer" target="_blank" id="card-link">
-          <Card>
-            <Image src={vg} className="card-img" alt="vgMusic" fluid />
-            <Card.Body>
-              <Card.Title><h2>vgMusic</h2></Card.Title>
-              <Card.Text>
-                My first website that functions as a music suggestor.
-              </Card.Text>
-              <Card.Text>Built it myself! One cool feature is using AJAX to access a database and embed Spotify Widgets.</Card.Text>
-              <Card.Text>
-                Made without a framework.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          </a>
-        </Col>
-      </Row>
-      <Row>
-        <Col md={6}>
           <Card title="Only a gif is available for this project!">
             <Image src={dol} className="card-img" alt="Disciple of the Land" fluid />
             <Card.Body>
               <Card.Title><h2>Disciple of the Land</h2></Card.Title>
               <Card.Text>
-                A utility app for Final Fantasy XIV.
+                A utility app for Final Fantasy XIV. Native Android app.
               </Card.Text>
               <Card.Text>Built it myself! Creates a local database of items from a json file using AWS. I had fun making the UI.</Card.Text>
-              <Card.Text>
-                Native android application.
-              </Card.Text>
             </Card.Body>
           </Card>
         </Col>
+      </Row>
+      <Row>
         <Col md={6}>
           <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener noreferrer" target="_blank" id="card-link">
           <Card>
@@ -162,23 +130,18 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Gatling Gun Experience</h2></Card.Title>
               <Card.Text>
-                An educational VR game for the Old Idaho Penitentiary.
+                An educational VR game for the Old Idaho Penitentiary. Made in Unity.
               </Card.Text>
               <Card.Text>
                 Programmed the audio playback system and UI. Excluding textures, designed the UI.
-              </Card.Text>
-              <Card.Text>
-                Made in Unity.
               </Card.Text>
             </Card.Body>
           </Card>
           </a>
         </Col>
-      </Row>
-      <Row>
-      <Col md={6}>
-        <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener noreferrer" target="_blank" id="card-link">
-      <Card>
+        <Col md={6}>
+          <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener noreferrer" target="_blank" id="card-link">
+            <Card>
             <Image src={demo} className="card-img" alt="Fun Times during Undergrad" fluid />
             <Card.Body>
               <Card.Title><h2>Undergraduate Demo Reel</h2></Card.Title>
@@ -186,7 +149,7 @@ const IndexPage = () => (
                 A video showing fun times creating things during my four years at Boise State University.
               </Card.Text>
             </Card.Body>
-          </Card>
+            </Card>
           </a>
       </Col>
       </Row>
