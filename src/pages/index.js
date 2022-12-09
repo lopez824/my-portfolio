@@ -92,7 +92,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Heist N' Heat Infinite</h2></Card.Title>
               <Card.Text>
-                My original Heist N' Heat was chosen for a remake! Now with twitch integration. Made in Unreal Engine.
+                My original Heist N' Heat was chosen for a remake! Now with Twitch integration. Made in Unreal Engine.
               </Card.Text>
               <Card.Text>
                 Programmed AI, car gameplay mechanics, and twitch data parsing.
