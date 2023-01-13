@@ -15,6 +15,7 @@ import jc from "../images/JamesCastle.png"
 import echo from "../images/AlphaPoster.png"
 import ggho from "../images/GGHO.png"
 import hnhi from "../images/HNH.png"
+import lmp from "../images/magicpatch.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import { Link } from "gatsby"   // used for linking to additional pages
 //import { StaticImage } from "gatsby-plugin-image"
@@ -86,6 +87,24 @@ const IndexPage = () => (
           </Card>
         </Col>
         <Col md={6}>
+        <a href="https://mods.bethesda.net/en/skyrim/mod-detail/4303704" rel="noopener noreferrer" target="_blank" id="card-link">
+        <Card>
+            <Image src={lmp} className="card-img" alt="Legendary Magic Patch" fluid />
+            <Card.Body>
+              <Card.Title><h2>Legendary Magic Patch</h2></Card.Title>
+              <Card.Text>
+                An Elder Scrolls V: Skyrim mod that helps magic users in higher difficulites.
+              </Card.Text>
+              <Card.Text>
+                Modified existing values and added new logic for perks. Over 27,000 downloads and favorited 5,000 times.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          </a>
+        </Col>
+      </Row>
+      <Row>
+      <Col md={6}>
         <a href="https://foursay.itch.io/heist-n-heat-infinite" rel="noopener noreferrer" target="_blank" id="card-link">
         <Card>
             <Image src={hnhi} className="card-img" alt="Heist N' Heat Infinite" fluid />
@@ -101,8 +120,6 @@ const IndexPage = () => (
           </Card>
           </a>
         </Col>
-      </Row>
-      <Row>
       <Col md={6}>
         <a href="https://youtu.be/huajQCQFS5k" rel="noopener noreferrer" target="_blank" id="card-link">
           <Card>
@@ -115,6 +132,22 @@ const IndexPage = () => (
               <Card.Text>
                 Built application for the Oculus Quest, created 3D models, and programmed VR interactions.
               </Card.Text>
+            </Card.Body>
+          </Card>
+          </a>
+        </Col>
+      </Row>
+      <Row>
+      <Col md={6}>
+        <a href="https://heistnheat.netlify.app/" rel="noopener noreferrer" target="_blank" id="card-link">
+          <Card>
+            <Image src={hnh} className="card-img" alt="Heist N Heat" fluid />
+            <Card.Body>
+              <Card.Title><h2>Heist N' Heat</h2></Card.Title>
+              <Card.Text>
+                A web game iteration of the arcade classic, Rally-X.
+              </Card.Text>
+              <Card.Text>Programmed most of the game. Also hosted the game on Netlify using a Webpack configured for Phaser 3.</Card.Text>
             </Card.Body>
           </Card>
           </a>
@@ -138,20 +171,6 @@ const IndexPage = () => (
       </Row>
       <Row>
       <Col md={6}>
-        <a href="https://heistnheat.netlify.app/" rel="noopener noreferrer" target="_blank" id="card-link">
-          <Card>
-            <Image src={hnh} className="card-img" alt="Heist N Heat" fluid />
-            <Card.Body>
-              <Card.Title><h2>Heist N' Heat</h2></Card.Title>
-              <Card.Text>
-                A web game iteration of the arcade classic, Rally-X.
-              </Card.Text>
-              <Card.Text>Programmed most of the game. Also hosted the game on Netlify using a Webpack configured for Phaser 3.</Card.Text>
-            </Card.Body>
-          </Card>
-          </a>
-        </Col>
-        <Col md={6}>
           <a href="https://play.google.com/store/apps/details?id=com.aha_jump.android.communicator" rel="noopener noreferrer" target="_blank" id="card-link">
           <Card>
             <Image src={aha} className="card-img" alt="Kids Heart Challenge" fluid />
@@ -167,21 +186,21 @@ const IndexPage = () => (
           </Card>
           </a>
         </Col>
-      </Row>
-      <Row>
       <Col md={6}>
           <Card title="Only a gif is available for this project!">
             <Image src={dol} className="card-img" alt="Disciple of the Land" fluid />
             <Card.Body>
               <Card.Title><h2>Disciple of the Land</h2></Card.Title>
               <Card.Text>
-                A utility app for Final Fantasy XIV. Native Android app I programmed from scratch.
+                A utility app for Final Fantasy XIV. Native Android app I programmed with Android Studio.
               </Card.Text>
               <Card.Text>Creates a local database of items from a json file using AWS. I had fun making the UI.</Card.Text>
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6}>
+      </Row>
+      <Row>
+      <Col md={6}>
           <a href="https://www.youtube.com/watch?v=KLBXxRFKpR8" rel="noopener noreferrer" target="_blank" id="card-link">
           <Card>
             <Image src={gat} className="card-img" alt="Gatling Gun Experience" fluid />
@@ -197,8 +216,6 @@ const IndexPage = () => (
           </Card>
           </a>
         </Col>
-      </Row>
-      <Row>
       <Col md={6}>
           <a href="https://www.youtube.com/watch?v=9-KZYXeqjkM" rel="noopener noreferrer" target="_blank" id="card-link">
             <Card>
@@ -206,7 +223,7 @@ const IndexPage = () => (
             <Card.Body>
               <Card.Title><h2>Undergraduate Demo Reel</h2></Card.Title>
               <Card.Text>
-                A video showing fun times creating things during my four years at Boise State University.
+                A video showing miscellaneous projects during my time as an undergraduate student at Boise State University. I've come a long way!!
               </Card.Text>
             </Card.Body>
             </Card>
