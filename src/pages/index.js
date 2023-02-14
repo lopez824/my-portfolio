@@ -96,7 +96,7 @@ const IndexPage = () => (
                 An Elder Scrolls V: Skyrim mod that helps magic users in higher difficulites.
               </Card.Text>
               <Card.Text>
-                Modified existing values and added new logic for perks. Over 27,000 downloads and favorited 5,000 times.
+                Modified existing values and added new logic for perks. Over 30,000 downloads and favorited 6,000 times.
               </Card.Text>
             </Card.Body>
           </Card>
