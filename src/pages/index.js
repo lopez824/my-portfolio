@@ -27,7 +27,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Welcome!" />
     <h2 className="message">Game Developer</h2>
-    <p className="message">I am a Technical UI Designer at Bungie working on Marathon. My specialization is currently a designer with an engineering background building user interfaces with in-house tools.</p>
+    <p className="message">I am a Technical UI Designer at Bungie working on Marathon. My specialization is currently a designer with a programming background building user interfaces with in-house tools.</p>
     <p className="message">I enjoy gameplay, AI, UI, or VR design and programming. Below is a list of games and applications I have worked on. Except for the All of Us project, each card is interactable.</p>
     <p className="message"></p>
     <Container>
