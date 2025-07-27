@@ -94,10 +94,10 @@ const IndexPage = () => (
                   <h2>Great Gnome Hat Off!</h2>
                 </Card.Title>
                 <Card.Text>
-                  Compete with your friends to collect the most hats in this wacky 4-player party game while wearing a hat controller on your head! Made in Unity. Languages: C#, C++
+                  Compete with your friends to collect the most hats in this 4-player party game while wearing a hat controller on your head! Made in Unity. Languages: C#, C++
                 </Card.Text>
                 <Card.Text>
-                  Built the hardware and programmed the hat controllers with an Arduino. Also programmed the player mechanics and UI.
+                  Built the hardware and programmed the hat controllers with an Arduino. Programmed the player mechanics and match UI.
                 </Card.Text>
               </Card.Body>
             </Card>
