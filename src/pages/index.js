@@ -34,7 +34,7 @@ const IndexPage = () => (
       I am a Technical UI Designer at Bungie working on Marathon. My specialization in technical design comes from a programming background, multidisciplinary collaboration, and building user interfaces with proprietary tools.
     </p>
     <p className="message">
-      As both a programmer and technical designer, my interests are in audio, AI, UI, and VR. Below is a list of games and applications I have worked on over the course of my life.
+      As both a programmer and technical designer, my interests are in audio, AI (NPCs), UI, and VR. Below is a list of games and applications I have worked on over the course of my life.
     </p>
     <p className="message">
       Each card has a hyper link; with exceptions for the All of Us and Disciple of the Land projects.
@@ -74,7 +74,7 @@ const IndexPage = () => (
                   A puzzle adventure game where you go on a journey with your trusty companion. Made in Unreal Engine. Language: C++
                 </Card.Text>
                 <Card.Text>
-                  Implemented delegate-based behaviors and programmed custom blueprints for AI. Implemented and programmed the UI with Common UI.
+                  Implemented delegate-based behaviors and programmed custom blueprints for companion AI. Implemented and programmed the UI with Common UI.
                 </Card.Text>
                 <Card.Text>
                   Implemented dynamic audio systems with Meta Sounds and custom event driven blueprints for all audio. 
@@ -136,7 +136,7 @@ const IndexPage = () => (
                   Created 5 custom Magic Effects to update the Personal Atmosphere Spell.
                 </Card.Text>
                 <Card.Text>
-                  Over 440 likes, 3,400 bookmarks, and 1 million plays.
+                  Over 500 likes, 4,000 bookmarks, and 1.4 million plays.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -157,7 +157,7 @@ const IndexPage = () => (
                   Implemented new data entries and conditions for Perks related to schools of magic.
                 </Card.Text>
                 <Card.Text>
-                  Over 280 likes, 4,500 bookmarks, and 829,000 plays.
+                  Over 340 likes, 9,800 bookmarks, and 1.4 million plays.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -195,7 +195,7 @@ const IndexPage = () => (
                   My original Heist N' Heat was chosen for a remake! Now with Twitch integration. Made in Unreal Engine.
                 </Card.Text>
                 <Card.Text>
-                  Implemented AI with Behavior Trees, car gameplay mechanics, and twitch data parsing for players to impact gameplay during streams.
+                  Implemented cop AI with Behavior Trees, car gameplay mechanics, and twitch data parsing for players to impact gameplay during streams.
                 </Card.Text>
               </Card.Body>
             </Card>
