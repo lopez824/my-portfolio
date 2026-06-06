@@ -31,7 +31,7 @@ const IndexPage = () => (
     <Seo title="Welcome!" />
     <h2 className="message">Game Developer</h2>
     <p className="message">
-      I am a Technical UI Designer at Bungie working on Marathon. My specialization in technical design comes from a programming background, multidisciplinary collaboration, and building user interfaces with proprietary tools.
+      I'm a Senior Technical UI Designer at Bungie working on Marathon. My specialization in technical design comes from a programming background, multidisciplinary collaboration, and building user interfaces with proprietary tools.
     </p>
     <p className="message">
       As both a programmer and technical designer, my interests are in audio, AI (NPCs), UI, and VR. Below is a list of games and applications I have worked on over the course of my life.
