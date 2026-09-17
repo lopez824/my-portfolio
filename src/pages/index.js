@@ -136,7 +136,7 @@ const IndexPage = () => (
                   Created 5 custom Magic Effects to update the Personal Atmosphere Spell.
                 </Card.Text>
                 <Card.Text>
-                  Over 500 likes, 4,000 bookmarks, and 1.4 million plays.
+                  Over 500 likes, 4,200 bookmarks, and 1.5 million plays.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -157,7 +157,7 @@ const IndexPage = () => (
                   Implemented new data entries and conditions for Perks related to schools of magic.
                 </Card.Text>
                 <Card.Text>
-                  Over 340 likes, 9,800 bookmarks, and 1.4 million plays.
+                  Over 360 likes, 9,900 bookmarks, and 1.5 million plays.
                 </Card.Text>
               </Card.Body>
             </Card>
